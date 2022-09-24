@@ -761,7 +761,7 @@ nav.open .links{
 	
 }
 
-.contact-section a.active:hover {
+.contact-section button:hover {
 transform:  scale(1.3);
 }
 
