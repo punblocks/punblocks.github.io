@@ -51,7 +51,7 @@ const swiper1 = new Swiper(".swiper1", {
 
 const swiper2 = new Swiper(".swiper2", {
 	speed:1100,
-	slidesPerView:3,
+	slidesPerView:1,
 	loop:true,
 	spaceBetween: 15,
 	 navigation: {
