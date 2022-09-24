@@ -756,12 +756,13 @@ nav.open .links{
 	background-color: #fffbc8;
 	border-radius: 2rem;
 	border: 3.5px solid black;
-	padding: 0.9rem ;
+	padding: 0.9rem;
+	cursor: pointer;
 	
 	
 }
 
-.contact-section button:hover {
+.contact-section button:hover{
 transform:  scale(1.3);
 }
 
