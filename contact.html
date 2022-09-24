@@ -66,18 +66,20 @@
 						</div>
 						<div class="contact-form">
 							<h3 class="title">contact me</h3>
+							<form action="https://formsubmit.co/punblocks@gmail.com" method="POST">
 							<div class="row">
-								<input type="text" class="contact-input" placeholder="First Name">
-								<input type="text" class="contact-input" placeholder="Last Name">
+								<input type="text" class="contact-input" name="name" placeholder="First Name" required>
+								<input type="text" class="contact-input" name="last name" placeholder="Last Name" required>
 							</div>
 							<div class="row">
-								<input type="text" class="contact-input" placeholder="Phone">
-								<input type="email" class="contact-input" placeholder="Email">
+								<input type="text" class="contact-input" name="phone" placeholder="Phone">
+								<input type="email" class="contact-input" name="email" placeholder="Email" required>
 							</div>
 							<div class="row">
-								<textarea name="message" class="contact-input textarea" placeholder="Message"></textarea>
+								<textarea name="message" class="contact-input textarea" name="message" placeholder="Message" required></textarea>
 							</div>
 							<a href="" class="active">send</a>
+							</form>
 						</div>
 					</div>
 				</div>
