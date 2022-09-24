@@ -742,7 +742,7 @@ nav.open .links{
 /*end file*/
 /* contact-section */
 
-.contact-section a{
+.contact-section button {
 	margin-top:0.6rem;
 	display: inline-block;
 	padding: 0;
@@ -752,11 +752,7 @@ nav.open .links{
 	font-style: normal;
 	line-height: 1;
 	transition: 0.3s;
-	transform-origin: center
-	
-}
-
-.contact-section a.active {
+	transform-origin: center;
 	background-color: #fffbc8;
 	border-radius: 2rem;
 	border: 3.5px solid black;
