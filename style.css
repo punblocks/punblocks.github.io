@@ -868,6 +868,21 @@ transform:  scale(1.3);
 	background:#eaeaea;
 }
 
+/*success */
+
+.success-section {
+	width: 100%;
+	padding: 1.5rem 0 16rem;
+	background-color: #fffbc8;
+}
+
+.success-text{
+	padding: 12rem 0;
+	text-align: center;
+}
+
+/*end success */
+
 
 
 
