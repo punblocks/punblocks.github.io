@@ -119,6 +119,7 @@ nav {
 	position: relative;
 	z-index: 50;
 	background-color: var(--background-color);
+	
 }
 
 nav .container {
